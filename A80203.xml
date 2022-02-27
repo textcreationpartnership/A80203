@@ -1,0 +1,1330 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The church-catechism with a brief and easie explanation thereof for the help of the meanest capacities and weakest memories. By T.C. D.D.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 58 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80203</idno>
+            <idno type="STC">Wing C5444A</idno>
+            <idno type="STC">ESTC R223943</idno>
+            <idno type="EEBO-CITATION">99896947</idno>
+            <idno type="PROQUEST">99896947</idno>
+            <idno type="VID">135666</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80203)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 135666)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2461:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The church-catechism with a brief and easie explanation thereof for the help of the meanest capacities and weakest memories. By T.C. D.D.</title>
+                  <author>Comber, Thomas, 1645-1699.</author>
+               </titleStmt>
+               <extent>32 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by M.C. for Henry Brome and Robert Clavel in S. Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCLXXXI. [1681]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>T.C. = Thomas Comber.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Catechisms --  Early works to 1800.</term>
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-08</date>
+            <label>Kate Allen</label>Sampled and proofread</change>
+         <change>
+            <date>2013-08</date>
+            <label>Kate Allen</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:135666:1"/>
+            <pb facs="tcp:135666:1"/>
+            <p>THE <hi>Church-Catechiſm</hi> With a BRIEF and EASIE EXPLANATION THEREOF, For the help of the meaneſt Capacities and weakeſt Memories.</p>
+            <p>By <hi>T. C.</hi> D. D.</p>
+            <p>
+               <hi>LONDON:</hi> Printed by <hi>M. C.</hi> for <hi>Henry Brome</hi> and <hi>Robert Clavel</hi> in S. <hi>Pauls</hi> Church-yard. MDCLXXXI.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:135666:2"/>
+            <pb facs="tcp:135666:2"/>
+            <head>An Advertiſement.</head>
+            <p>THE end of this ſhort Explication is to render the Prin<g ref="char:EOLhyphen"/>ciples of Chriſtian Religion, comprized in the Church Catechiſm, plain and eaſie to the meaneſt capacities. And the method thereof is this, <hi>1.</hi> The Catechiſm is printed in a dif<g ref="char:EOLhyphen"/>ferent letter, on the left hand page, that it may be firſt learned by it ſelf. <hi>2.</hi> The ſeveral Queſtions of the Catechiſm, are put under a proper Title, containing the Subject of each Queſtion, and the Anſwers to them are broken to pieces by a few brief and plain Explicatory Queſtions; ſo that ignorant Learners may eaſily underſtand the full meaning of them. And thoſe who cannot read, or cannot get long Anſwers by heart (which want Inſtruction the moſt) need not be diſcouraged by this method, becauſe they are not required hereby to Anſwer any more than Yes, or No, which will be no burthen to their memo<g ref="char:EOLhyphen"/>ry, and yet will exerciſe their Judgment, and as well teach them to underſtand the ſenſe of their Catechiſm, as try whe<g ref="char:EOLhyphen"/>ther they do ſo or no. Yet thoſe of better capacity may exerciſe their memory alſo, and by frequent reading the Explicatory Queſtions, will be able to repeat them after the Catechiſt, and turn them into an Affirmative or Negative Propoſition, thus,</p>
+            <p>
+               <hi>Qu.</hi> Ought your name, <hi>&amp;c. Anſw.</hi> Yes, my name, <hi>&amp;c.</hi> ought, <hi>&amp;c.</hi>
+            </p>
+            <p>
+               <hi>Qu.</hi> Are not Infants, <hi>&amp;c. Anſw.</hi> No, Infants are not, <hi>&amp;c.</hi>
+            </p>
+            <p>Now this may be of uſe, as well to Parents in private, as to Miniſters in Publick; who may firſt ask the Learners ſo many Queſtions of the Church Catechiſm, as they think fit for one time; and then beginning again, may firſt tell them the Title or Subject of each Queſtion, and then examine them by the Explica<g ref="char:EOLhyphen"/>tory Queſtions belonging thereunto. And if the Miniſter pleaſe to inlarge a little in a plain diſcourſe upon every Explicatory Queſtion, and alſo to ſhew unto what part of the Anſwer in the Church Catechiſm it doth refer, the Learner will better underſtand it, which will make the neceſſary duty of Catechi<g ref="char:EOLhyphen"/>ſing ſtill more profitable, and will drop knowledg by degrees in<g ref="char:EOLhyphen"/>to thoſe narrow mouthed Veſſels, for whoſe ſake this method was contrived. And the ſucceſs it hath had, on many very
+<pb facs="tcp:135666:3"/> young Children, and very ignorant Country people, hath incou<g ref="char:EOLhyphen"/>raged the Publication thereof, in hopes it may be very ſervicea<g ref="char:EOLhyphen"/>ble, not only for private Families, but alſo for Country Con<g ref="char:EOLhyphen"/>gregations, as well to invite the Learners to come in greater numbers by its eaſineſs, as to inſtruct them by its plainneſs. And the whole is no other than the Church Catechiſm injoyned by Law, briefly Explained, and no more impoſed to be gotten by heart, than that which the Church requires, the reſt being only contrived to make that underſtood and try if it be ſo, It is hoped the Right Reverend Governours of the Church, (to whoſe cenſure the whole is humbly ſubmitted) will not diſlike the publication thereof, in order to the ſitting the more ignorant ſort, for thoſe great Duties of Confirmation and the Lords Supper. <q>I need not here add any thing concerning the Divine Inſtitution and Antiquity of Catechiſing; the Excellency of our Church Catechiſm, both for its agreeableneſs to Primi<g ref="char:EOLhyphen"/>tive forms, and its exact Method, nor ſhall I now enlarge upon the neceſſity and uſe of this Profitable and Pious Duty, Having in a peculiar Diſcourſe upon Catechiſing treated of theſe particulars, and exhorted, <hi>1.</hi> Miniſters to promote not only the learning the Catechiſm by rote, but the under<g ref="char:EOLhyphen"/>ſtanding thereof. <hi>2.</hi> Parents and Maſters both to inſtruct their Children and Servants in Private, and to bring them to Church to be publickly Catechiſed. <hi>3.</hi> And excited the Younger and Ignorant people to come willingly.</q> To which Diſcourſe I refer the Reader, <hi>Companion to the Altar,</hi> page <hi>451, 452, &amp;c.</hi>
+            </p>
+         </div>
+         <div type="introduction">
+            <pb facs="tcp:135666:3"/>
+            <head>THE INTRODUCTION.</head>
+            <p>§. ALmighty God having Created our firſt Pa<g ref="char:EOLhyphen"/>rents after his own Image, did condeſcend to enter into a Covenant with them, wherein he promiſed life to them and their Poſterity, upon condition of perfect and perpetual obedi<g ref="char:EOLhyphen"/>ence, and threatned their diſobedience with death.</p>
+            <p>§. Our firſt Parents through the temptation of Sa<g ref="char:EOLhyphen"/>tan, wilfully tranſgreſſed the Commandment of God in eating the forbidden fruit, and there<g ref="char:EOLhyphen"/>by brought themſelves, and all their poſterity, into an eſtate of ſin and miſery.</p>
+            <p>§. God hath not left mankind to periſh in the e<g ref="char:EOLhyphen"/>ſtate of Sin and Miſery, into which they fell by the breach of the firſt Covenant; But hath been pleaſed of his meer love and mercy to make a ſecond Covenant of Grace, wherein he freely offereth pardon, and ſalvation, by Jeſus Chriſt, to all thoſe who ſhall truly repent, and believe in him.</p>
+            <p>§. And ſeeing this Covenant is ſolemnly to be en<g ref="char:EOLhyphen"/>ter'd into, in our infancy by Baptiſm, (which is the firſt benefit and favour we are capable of af<g ref="char:EOLhyphen"/>ter we are born) It ſeemed good to the excel<g ref="char:EOLhyphen"/>lent compilers of this Catechiſm, to begin it where we begin our Chriſtianity; and by the mention of our name received in Baptiſm, to take occaſion to mind us of our Obligations, and Priviledges thereby.</p>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb n="6" facs="tcp:135666:4"/>
+            <head>THE Church Catechiſm.</head>
+            <div n="1" type="question">
+               <head>Queſtion 1.</head>
+               <p>WHat is your Name?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>N. or M.</p>
+            </div>
+            <div n="2" type="question">
+               <head>Queſtion 2.</head>
+               <p>Who gave you that Name?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>My Godfathers and Godmothers in my Baptiſm, wherein I was made a member of Chriſt, the Child of God, and an inheritor of the Kingdom of Heaven.</p>
+            </div>
+            <div n="3" type="question">
+               <head>Queſtion 3.</head>
+               <p>What did your Godfathers and Godmothers then for you?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>They did promiſe and vow three things in my Name.</p>
+               <p>Firſt, that I ſhould renounce the Devil and all his works, the pomps and vanity of this wicked World, and all the ſinful luſts of the fleſh.</p>
+               <p>Secondly, that I ſhould believe all the Articles of the Chriſtian Faith.</p>
+               <p>And Thirdly, that I ſhould keep Gods holy will and Commandments, and walk in the ſame all the days of my Life.</p>
+            </div>
+            <div n="4" type="question">
+               <head>
+                  <pb n="8" facs="tcp:135666:5"/>Queſtion 4.</head>
+               <p>Doſt thou not think that thou art bound to believe, and to do, as they have promiſed for thee?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Yes verily; and by Gods help, ſo I will. And I hear<g ref="char:EOLhyphen"/>tily thank our heavenly Father, that he hath called me to this ſtate of ſalvation, through Ieſus Chriſt our Sa<g ref="char:EOLhyphen"/>viour. And I pray unto God is give me his grace, that I may continue in the ſame unto my lives end.</p>
+            </div>
+            <div n="5" type="question">
+               <head>Queſtion 5.</head>
+               <p>Rehearſe the Articles of thy Belief.</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <list>
+                  <item>
+                     <hi>I. I</hi> Believe in God the Father Almighty, maker of Heaven and Earth:</item>
+                  <item>
+                     <hi>II.</hi> And in Ieſus Chriſt his only Son our Lord,</item>
+                  <item>
+                     <hi>III.</hi> Who was conceived by the Holy Ghoſt, Born of the Virgin Mary.</item>
+                  <item>
+                     <hi>IV.</hi> Suffered under Pontius Pilate, was crucified, dead and buried, He deſcended into Hell;</item>
+                  <item>
+                     <hi>V.</hi> The third day he roſe again from the dead,</item>
+                  <item>
+                     <hi>VI.</hi> He aſcended into Heaven, and ſitteth at the right hand of God the Father Almighty;</item>
+                  <item>
+                     <hi>VII.</hi> From thence he ſhall come to judg the quick and the dead.</item>
+                  <item>
+                     <hi>VIII.</hi> I believe in the Holy Ghoſt.</item>
+                  <item>
+                     <hi>IX.</hi> The Holy Catholick Church, the Communion of Saints.</item>
+                  <item>
+                     <hi>X.</hi> The forgiveneſs of Sins.</item>
+                  <item>
+                     <hi>XI.</hi> The reſurrection of the body.</item>
+                  <item>
+                     <hi>XII.</hi> And the life everlaſting. Amen.</item>
+               </list>
+            </div>
+            <div n="6" type="question">
+               <head>
+                  <pb n="14" facs="tcp:135666:8"/>Queſtion 6.</head>
+               <p>What doſt thou chiefly learn in theſe Articles of thy belief?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Firſt, I learn to believe in God the Father, who hath made me and all the world.</p>
+               <p>Secondly, in God the Son, who hath redeemed me, and all mankind.</p>
+               <p>Thirdly, in God the Holy Ghoſt, who ſanctifieth me, and all the elect of God.</p>
+            </div>
+            <div n="7" type="question">
+               <head>Queſtion 7.</head>
+               <p>You ſaid that your Godfathers and Godmothers did promiſe for you, that you ſhould keep Gods Command<g ref="char:EOLhyphen"/>ments.</p>
+               <p>Tell me how many there be.</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Ten.</p>
+            </div>
+            <div n="8" type="question">
+               <head>Queſtion 8.</head>
+               <p>Which be they?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>The ſame which God ſpake in the twentieth Chap<g ref="char:EOLhyphen"/>ter of Exodus, ſaying, I am the Lord thy God, who brought thee out of the Land of Egypt, out of the houſe of Bondage.</p>
+               <list>
+                  <pb n="16" facs="tcp:135666:9"/>
+                  <item>
+                     <hi>I.</hi> Thou ſhalt have none other Gods but me.</item>
+                  <item>
+                     <hi>II.</hi> Thou ſhalt not make to thy ſelf any graven Image, nor the likeneſs of any thing that is in Heaven a<g ref="char:EOLhyphen"/>bove, or in the Earth beneath, or in the water un<g ref="char:EOLhyphen"/>der the Earth. Thou ſhalt not bow down to them, nor worſhip them. For I the Lord thy God am a Iealous God, and viſit the ſins of the Fathers upon the Children, unto the third and fourth Gene<g ref="char:EOLhyphen"/>ration of them that hate me, and ſhew mercy unto thouſands of them that love me, and keep my Com<g ref="char:EOLhyphen"/>mandments.</item>
+                  <item>
+                     <hi>III.</hi> Thou ſhalt not take the Name of the Lord thy God in vain: For the Lord will not hold him guilt<g ref="char:EOLhyphen"/>leſs that taketh his Name in vain.</item>
+                  <item>
+                     <hi>IV.</hi> Remember that thou keep Holy the Sabbath day. Six days ſhalt thou labour, and do all that thou haſt to do; but the ſeventh day is the Sabbath of the Lord thy God. In it thou ſhalt do no manner of work, thou and thy Son, and thy Daughter, thy man ſervant, and thy maid-ſervant, thy Cattel, and the ſtranger that is within thy Gates. For in ſix days the Lord made Heaven and Earth, the Sea and all that in them is, and reſted the ſeventh day: wherefore the Lord bleſſed the ſeventh day, and hal<g ref="char:EOLhyphen"/>lowed it.</item>
+                  <item>
+                     <hi>V.</hi> Honour thy Father and thy Mother, that thy days may be long in the Land which the Lord thy God giv<g ref="char:EOLhyphen"/>eth thee.</item>
+                  <item>
+                     <hi>VI</hi> Thou ſhalt do no murther.</item>
+                  <item>
+                     <hi>VII.</hi> Thou ſhalt not commit adultery.</item>
+                  <item>
+                     <hi>VIII.</hi> Thou ſhalt not ſteal.</item>
+                  <item>
+                     <hi>IX.</hi> Thou ſhalt not bear falſe witneſs againſt thy neigh<g ref="char:EOLhyphen"/>bour.</item>
+                  <item>
+                     <hi>X.</hi> Thou ſhalt not covet thy neighbours houſe, thou ſhalt not covet thy neighbours wife, nor his ſervant, nor his maid, nor his Ox, nor his Aſs, nor any thing that is his.</item>
+               </list>
+            </div>
+            <div n="9" type="question">
+               <head>
+                  <pb n="17" facs="tcp:135666:9"/>Qu. 9.</head>
+               <p>What doſt thou chiefly learn by theſe Com<g ref="char:EOLhyphen"/>mandments?</p>
+               <p>
+                  <label>Anſw </label>
+               </p>
+               <p>I learn two things: my duty towards God, and my duty towards my Neighbour.</p>
+            </div>
+            <div n="10" type="question">
+               <head>Qu. 10.</head>
+               <p>What is thy duty towards God?</p>
+               <p>
+                  <label>Anſw.</label>
+               </p>
+               <p>My duty towards God is,</p>
+               <list>
+                  <item>
+                     <hi>I, II.</hi> To believe in him, to fear him, and to love him, with all my heart, with all my mind, with all my ſoul, and with all my ſtrength: to worſhip him, to give him thanks, to put my whole truſt in him, to call upon him.</item>
+                  <item>
+                     <hi>III.</hi> To honour his holy Name and his Word;</item>
+                  <item>
+                     <hi>IV.</hi> And to ſerve him truly all the days of my life.</item>
+               </list>
+            </div>
+            <div n="11" type="question">
+               <head>Qu. 11.</head>
+               <p>What is thy duty towards thy Neighbour?</p>
+               <p>
+                  <label>Anſw. </label>
+               </p>
+               <p>My duty towards my Neighbour is,</p>
+               <list>
+                  <item>§. To love him as my ſelf, and to do to all men, as I would they ſhould do to me.</item>
+                  <item>
+                     <hi>V.</hi> To love, honour, and ſuccour my Father and Mother. To honour and obey the King, and all that are put in authority under him. To ſubmit my ſelf to all my Governours, Teachers, Spiritual Paſtors and Maſters. To order my ſelf lowly and reverently to all my betters.</item>
+                  <item>
+                     <hi>VI.</hi> To hurt no body by word or deed.</item>
+                  <item>
+                     <hi>VII.</hi> To be true and juſt in all my dealings.</item>
+                  <item>
+                     <hi>VIII.</hi> To bear no malice nor hatred in my heart.</item>
+                  <item>
+                     <hi>IX.</hi> To keep my hands from picking and ſtealing.</item>
+                  <item>
+                     <hi>X.</hi> And my tongue from evil ſpeaking, lying and ſlan<g ref="char:EOLhyphen"/>dering.</item>
+                  <item>
+                     <hi>XI.</hi> To keep my body in temperance, ſoberneſs, and chaſtity.</item>
+                  <item>
+                     <hi>XII.</hi> Not to covet and deſire other mens goods, but to learn and labour truly to get mine own living, and to do my duty in that ſtate of life, unto which it ſhall pleaſe God to call me.</item>
+               </list>
+               <p>
+                  <hi>page</hi> 20. Catechiſt,</p>
+               <pb n="22" facs="tcp:135666:12"/>
+               <p>Catechiſt:</p>
+               <p>My good child, know this, that thou art not able to do theſe things of thy ſelf, nor to walk in the Command<g ref="char:EOLhyphen"/>ments of God, and to ſerve him, without his ſpecial grace, which thou muſt learn at all times to call for by diligent prayer.</p>
+            </div>
+            <div n="12" type="question">
+               <head>Queſtion 12.</head>
+               <p>Let me hear therefore, if thou canſt ſay the Lords Prayer.</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>OVr Father which art in Heaven.</p>
+               <list>
+                  <item>
+                     <hi>I.</hi> Hallowed be thy name,</item>
+                  <item>
+                     <hi>II.</hi> Thy Kingdom come,</item>
+                  <item>
+                     <hi>III.</hi> Thy will be done in earth as it is in Heaven.</item>
+                  <item>
+                     <hi>IV.</hi> Give us this day our daily bread.</item>
+                  <item>
+                     <hi>V.</hi> And forgive us our treſ<g ref="char:EOLhyphen"/>paſſes as we forgive them that treſpaſs againſt us,</item>
+                  <item>
+                     <hi>VI.</hi> And lead us not into temptation.</item>
+                  <item>
+                     <hi>VII.</hi> But deliver us from evil.</item>
+               </list>
+               <p>§. <hi>For thine is the Kingdom, and the power, and the glo<g ref="char:EOLhyphen"/>ry, For ever, and ever.</hi> Amen.</p>
+            </div>
+            <div n="13" type="question">
+               <head>Queſtion 13.</head>
+               <p>What deſireſt thou of God in this prayer?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>I deſire my Lord God our heavenly Father, who is the giver of all goodneſs, to ſend his grace unto me, and to all people,</p>
+               <list>
+                  <item>
+                     <hi>I.</hi> That we may worſhip him,</item>
+                  <item>
+                     <hi>II.</hi> Serve him,</item>
+                  <item>
+                     <hi>III.</hi> And obey him as we ought to do:</item>
+                  <item>
+                     <hi>IV.</hi> And I pray unto God, that he will ſend us all things that be needful both for our ſouls and bodies,</item>
+                  <item>
+                     <hi>V.</hi> And that he will be mer<g ref="char:EOLhyphen"/>ciful unto us and forgive us our ſins.</item>
+                  <item>
+                     <hi>VI, VII.</hi> And that it will pleaſe him to ſave and de<g ref="char:EOLhyphen"/>fend us, in all dangers, ghoſtly and bodily, and that he will keep us from all ſin and wickedneſs, and from our ghoſtly enemy, and from everlaſting death. And this I truſt he will do of his mercy and goodneſs, through our Lord Ieſus Chriſt, and therefore I ſay Amen. So be it.</item>
+               </list>
+            </div>
+            <div n="14" type="question">
+               <pb n="26" facs="tcp:135666:14"/>
+               <head>Queſtion 14.</head>
+               <p>How many Sacraments hath Chriſt ordained in his Church?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Two only, as generally neceſſary to ſalvation, that is to ſay, Baptiſm, and the Supper of the Lord.</p>
+            </div>
+            <div n="15" type="question">
+               <head>Queſtion 15.</head>
+               <p>What meaneſt thou by this word Sacrament?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>I mean an outward and viſible ſign of an inward and ſpiritual grace given unto us, ordained by Chriſt himſelf, as a means whereby we receive the ſame, and a pledg to aſſure us thereof.</p>
+            </div>
+            <div n="16" type="question">
+               <head>Queſtion 16.</head>
+               <p>How many parts are there in a Sacrament?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Two: the outward viſible ſign, and the inward ſpiri<g ref="char:EOLhyphen"/>tual grace.</p>
+            </div>
+            <div n="17" type="question">
+               <head>Queſtion 17.</head>
+               <p>What is the outward viſible ſign, or form in Baptiſm?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Water: Wherein the perſon is baptized in the name of the Father, and of the Son, and of the Holy-Ghoſt.</p>
+            </div>
+            <div n="18" type="question">
+               <head>Queſtion 18.</head>
+               <p>What is the inward and ſpiritual grace?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>A death unto ſin, and a new birth unto righteouſneſs, for being by nature born in Sin, and the children of wrath, we are hereby made the children of grace.</p>
+            </div>
+            <div n="19" type="question">
+               <pb n="28" facs="tcp:135666:15"/>
+               <head>Queſtion 19.</head>
+               <p>What is required of perſons to be baptiſed?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Repentance, whereby they forſake ſin: and Faith whereby they ſtedfaſtly believe the promiſes of God, made to them in that Sacrament.</p>
+            </div>
+            <div n="20" type="question">
+               <head>Queſtion 20.</head>
+               <p>Why then are infants baptized, when by reaſon of their tender age they cannot perform them?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Becauſe they promiſe them both by their ſureties: which promiſe when they come to age themſelves are bound to perform.</p>
+            </div>
+            <div n="21" type="question">
+               <head>Queſtion 21.</head>
+               <p>Why was the Sacrament of the Lords Supper or<g ref="char:EOLhyphen"/>dained?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>For the continual remembrance of the ſacrifice of the death of Chriſt, and of the benefits which we receive thereby.</p>
+            </div>
+            <div n="22" type="question">
+               <head>Queſtion 22.</head>
+               <p>What is the outward part of ſign of the Lords Sup<g ref="char:EOLhyphen"/>per?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>Bread and Wine, which the Lord hath commanded to be received.</p>
+            </div>
+            <div n="23" type="question">
+               <pb n="30" facs="tcp:135666:16"/>
+               <head>Queſtion 23.</head>
+               <p>What is the inward part or thing ſignified?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>The Body and Blood of Chriſt, which are verily and indeed taken and received by the faithful in the Lords Supper.</p>
+            </div>
+            <div n="24" type="question">
+               <head>Queſtion 24.</head>
+               <p>What are the benefits whereof we are partakers there<g ref="char:EOLhyphen"/>by?</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>The ſtrengthening and refreſhing of our ſouls by the body and blood of Chriſt, as our bodies are by the bread and wine.</p>
+            </div>
+            <div n="25" type="question">
+               <head>Queſtion 25.</head>
+               <p>What is required of them who come to the Lords Supper.</p>
+               <p>
+                  <label>Anſwer.</label>
+               </p>
+               <p>To examin themſelves, whether they repent them tru<g ref="char:EOLhyphen"/>ly of their former ſins, ſtedfaſtly purpoſing to lead a new life; have a lively faith in God's mercy through Chriſt, with a thankful remembrance of his death; and be in Charity with all men.</p>
+            </div>
+            <trailer>The end of the Catechiſm.</trailer>
+         </div>
+         <div type="explication">
+            <pb n="7" facs="tcp:135666:4" rendition="simple:additions"/>
+            <head>THE EXPLANATION Of the CATHECHISM.</head>
+            <div n="1-2" type="question">
+               <head>Qu. 1, 2. Of the Benefits of Baptiſm.</head>
+               <p>§. OUght your name rec<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ived in Baptiſm, to put you in mind of the Duties and Priviledges of the Covenant, into which you did then enter? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Are not Infants by reaſon of their tender age unca<g ref="char:EOLhyphen"/>pable of receiving any benefit by Baptiſm? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Were you in your infancy thereby made and ſolemn<g ref="char:EOLhyphen"/>ly admitted,
+<list>
+                     <item>1. A Member of Chriſt, and of his Church? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. A Child of God by Adoption? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. And an Heir of the Kingdom of Heaven? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div n="3" type="question">
+               <head>Qu. 3. Of the Vow of Baptiſm.</head>
+               <p>§. Were theſe great Benefits confer'd on you abſolute<g ref="char:EOLhyphen"/>ly, without any Conditions to be performed on your part? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Did not your Sureties who preſented you to Baptiſm, then ſolemnly promiſe in your name and behalf, that you ſhould,
+<list>
+                     <item>1. Renounce the Temptations of the Devil, and the World; and mortifie the evil deſires of your own corrupt heart? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. Believe the principles of the Chriſtian Religi<g ref="char:EOLhyphen"/>on, revealed by God in holy Scriptures, and briefly comprized in the Creed? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. Sincerely and conſtantly obey all Gods Com<g ref="char:EOLhyphen"/>mandments. <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div n="4" type="question">
+               <pb n="9" facs="tcp:135666:5" rendition="simple:additions"/>
+               <head>Qu. 4. Of our Profeſſing to own, and pro<g ref="char:EOLhyphen"/>miſe to perform our Baptiſmal Vow.</head>
+               <p>§. Do not you think your ſelf ingaged in your own perſon, to perform that Promiſe and Vow which your ſureties did make for you? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. And do you now promiſe and reſolve according to your bounden duty, to perform theſe your Baptiſmal in<g ref="char:EOLhyphen"/>gagements? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Can you do this without Gods help and aſſiſtance? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Are you heartily thankful to God for bringing you into this Covenant of Faith and Repentance, and ſo into a capacity of Salvation? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. And will you daily pray to God for Grace, to enable you ever to continue ſtedfaſt in this Covenant? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Shall thoſe who perform theſe Conditions, fail to reap the bleſſings of their Baptiſm? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Or ſhall thoſe who wilfully break them eſcape the wrath and curſe of God? <hi rend="inMarg">No</hi>
+               </p>
+            </div>
+            <div n="5" type="question">
+               <head>Qu. 5. Of the Creed conſiſting of twelve Articles.</head>
+               <p>§. Are not the twelve Articles of your belief contained in the Apoſtles Creed? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is not that Creed a brief Summary of all the Articles of the Chriſtian Faith neceſſary to Salvation? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is there any Article therein, which cannot be proved by Holy Scripture? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Can he be a true Chriſtian who denies any of them? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Are you not in this Creed taught to believe and con<g ref="char:EOLhyphen"/>feſs, that there is one only living and true God? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. And doth it alſo teach you to believe, that in the uni<g ref="char:EOLhyphen"/>ty of the God-head there be three perſons of one Sub<g ref="char:EOLhyphen"/>ſtance, Power, and Eternity? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. And that theſe three Perſons are, God the Father our Creator, God the Son our Redeemer, and God the Holy Ghoſt our Sanctifier? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>
+                  <hi>Explicatory Queſtions on the ſeveral Articles, See</hi> page 8, 9, 10, 11.</p>
+               <div n="1" type="article">
+                  <pb n="10" facs="tcp:135666:6"/>
+                  <head>Art. 1. Of God and his Attributes.</head>
+                  <p>§. Hath God a body, parts, or paſſions, as men have? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is he then a moſt pure inviſible Spirit? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And is he not Infinite in Being and Perfection? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is he Eternal without beginning, ending, or any change? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is there any place where God is not preſent? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is there any thing paſt, preſent, or to come, which he doth not perfectly ſee and know? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is there any perſon too ſtrong, or any thing too hard for him? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is He ſo perfectly good that he cannot do, cauſe, or allow, any thing that is evil or unjuſt? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <div type="subsection">
+                     <head>Particularly, Of the Father, his Works of Creation and Providence.</head>
+                     <p>§. Is not the work of Creation principally attributed to God the Father? <hi rend="inMarg">Yes</hi>
+                     </p>
+                     <p>§. Did not He by his word alone make all things, in heaven and earth, of nothing? And every thing very good? <hi rend="inMarg">Yes</hi>
+                     </p>
+                     <p>§. Is there any Creature which can preſerve it ſelf with<g ref="char:EOLhyphen"/>out Gods Providence? <hi rend="inMarg">No</hi>
+                     </p>
+                     <p>§. Is there and Perſon, or thing, which is not under Gods Rule and Government? <hi rend="inMarg">No</hi>
+                     </p>
+                     <p>§. And doth not God order all things moſt wiſely? <hi rend="inMarg">Yes</hi>
+                     </p>
+                     <p>§. Did not God at firſt make Man after his own Image, in a holy and happy condition? <hi rend="inMarg">Yes</hi>
+                     </p>
+                  </div>
+               </div>
+               <div n="2" type="article">
+                  <head>Art. II. Of Jeſus Chriſt, his Divine Na<g ref="char:EOLhyphen"/>ture, Perſon, and Offices.</head>
+                  <p>§. Are not you and all Mankind ſince <hi>Adam</hi>'s fall born in a very ſinful and miſerable condition? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can any but He who is called Jeſus ſave you out of it? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. And was he alſo called Chriſt, becauſe he was anointed to Execute the Offices of a Prophet, Prieſt, and King? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is not this Jeſus Chriſt the Eternal &amp; only Son of God? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Could we have been redeemed unleſs the Son of God had taken mans Nature upon Him? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is Jeſus Chriſt then both God and Man, in two diſtinct Natures, and one Perſon? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="3" type="article">
+                  <pb n="11" facs="tcp:135666:6"/>
+                  <head>Art. III. Of the manner of Chriſts Incar<g ref="char:EOLhyphen"/>nation.</head>
+                  <p>§. Had Chriſt when he took our Nature, any Father up<g ref="char:EOLhyphen"/>on earth? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Was He as man, conceived by the power of the Holy Ghoſt, in the womb of the Virgin Mary, of her ſub<g ref="char:EOLhyphen"/>ſtance; and born without Sin? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Was the birth of Chriſt ſtained with Original, or his life with any Actual Sin? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="4" type="article">
+                  <head>Art. IV. Of the ſufferings of Chriſt.</head>
+                  <p>§. Was Chriſt (though innocent) condemned to die, by <hi>Pontius Pilate,</hi> the Roman Governour of <hi>Judea?</hi> 
+                     <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Did Chriſt undergo for us the wrath of God, and the curſed Death of the Croſs? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Could nothing ſatisfie Gods Juſtice for our Sins, but the ſufferings and death of Jeſus Chriſt? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Was He alſo buried? and did he continue in the State of the dead for a time? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="5" type="article">
+                  <head>Art. V. of Chriſts Reſurrection.</head>
+                  <p>§. Doth Chriſt ſtill remain under the power of death? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Did He by his own power, riſe from the dead on the third day, and become alive again? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And did He thereby declare himſelf to have fully ſa<g ref="char:EOLhyphen"/>tisfied Gods Juſtice? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="6" type="article">
+                  <head>Art. VI. Of Chriſts Aſcenſion, and Inter<g ref="char:EOLhyphen"/>ceſſion.</head>
+                  <p>§. Was Chriſt always to continue on earth after his Re<g ref="char:EOLhyphen"/>ſurrection? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Did He (forty days after) in our nature, and as our Head aſcend up into Heaven? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is He now at Gods right hand, in fulneſs of glory, with power over all things? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Doth He there make Interceſſion for us to his Father, by pleading the merits of His Obedience and Sacrifice on earth, for the acceptance of our perſons and ſer<g ref="char:EOLhyphen"/>vices? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="7" type="article">
+                  <pb n="12" facs="tcp:135666:7"/>
+                  <head>Art. VII. Of Chriſts coming to Judgment.</head>
+                  <p>§. Shall not Chriſt come again from Heaven at the laſt day in great glory and power, to judg all the World in righteouſneſs. <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Shall every one at that day (both thoſe that ſhall then be found alive, and thoſe that have been dead) give an account to Him of all their thoughts, words, and actions? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can any eſcape this Judgment? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Or hide their Sins from this Judg? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="8" type="article">
+                  <head>Art. VIII. Of the Holy-Ghoſt, his Divi<g ref="char:EOLhyphen"/>nity and Office.</head>
+                  <p>§. Is not the Holy-Ghoſt God equal with the Father and the Son? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is it not the work principally of the Holy-Ghoſt, to apply unto us the benefits which Chriſt hath purcha<g ref="char:EOLhyphen"/>ſed for us? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Hath He in order thereunto, revealed the will of God for our Salvation, in the Holy Scriptures, of the Old and New Teſtament? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Was the ſame delivered to the Church to be the only rule of our Faith and Life? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And doth He by the Miniſtry of this his word, in<g ref="char:EOLhyphen"/>lighten, convert, ſanctifie and comfort us? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="9" type="article">
+                  <head>Art. IX. Of the Church.</head>
+                  <p>§. Is the whole company of believers in all ages and pla<g ref="char:EOLhyphen"/>ces, (united into one body under Chriſt their head) called the holy Catholick Church? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can any particular company of Chriſtians properly call themſelves the Catholick Church? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Or can any one Man pretend to be the Head thereof? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Had God a Church in all Ages to worſhip Him? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can the Gates of Hell ever prevail, to deſtroy Gods Church upon earth? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="9 cont'd" type="article">
+                  <pb n="13" facs="tcp:135666:7" rendition="simple:additions"/>
+                  <head>And of the Communion of Saints.</head>
+                  <p>§. Are there any priviledges belong to us, as members of the Church? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Have all the true Members thereof Communion,<note place="margin">Yes</note>
+                     <list>
+                        <item>1. With one another in all offices of Piety and Charity? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And with Chriſt their Head, in grace and glo<g ref="char:EOLhyphen"/>ry here and hereafter? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="10" type="article">
+                  <head>Art. X. Of Remiſſion of Sins.</head>
+                  <p>§. Is there forgiveneſs of Sin to be had in the true Church? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Doth our meer being of the Church intitle us thereto? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Shall all and only thoſe, who truly repent and believe, have all their Sins for Chriſts ſake freely pardoned? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And ſhall all others, (though in the Church) remain under the guilt of Sin, and wrath of God? <subst>
+                        <del>
+                           <hi rend="inMarg">No</hi>
+                        </del>
+                        <add>
+                           <hi rend="inMarg">yes</hi>
+                        </add>
+                     </subst>
+                  </p>
+               </div>
+               <div n="11" type="article">
+                  <head>Art. XI. Of the Reſurrection of the Dead.</head>
+                  <p>§. Shall the bodies of thoſe that die, remain always in the grave? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Shall all the dead be raiſed up at the laſt day? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And ſhall their bodies be inſeparably united again to their Souls which never die? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="12" type="article">
+                  <head>Art. XII. Of Life Everlaſting.</head>
+                  <p>§. Shall every one at the Reſurrection, receive according to their works done in the body? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Shall the Righteous live for ever with God in heaven, in unconceivable glory and happineſs? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And ſhall the wicked endure intolerable and conti<g ref="char:EOLhyphen"/>nual torments, both in ſoul and body, in hell for ever? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div type="amen">
+                  <head>§. Amen.</head>
+                  <p>§. Do you by the word, Amen, teſtifie,
+<list>
+                        <item>1. Your ſtedfaſt belief of all this? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And your deſire ro live accordingly? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+            <div n="6" type="question">
+               <pb n="15" facs="tcp:135666:8"/>
+               <head>Qu. 6. Of the practical belief of theſe Articles.</head>
+               <p>§. Are not the belief of the holy Trinity, and of what the ſeveral perſons have done for you, the chief funda<g ref="char:EOLhyphen"/>mental Articles of your faith? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is it ſufficient to Salvation barely to know theſe fun<g ref="char:EOLhyphen"/>damentals, and to aſſent to them as true? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Is it further neceſſary to Salvation, that you ſincerely pay that duty to every perſon, which his proper work for you doth peculiarly challenge? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Do they rightly believe in God the Father, who do not love Him, fear Him, and ſerve Him, as their great Creator, and merciful Preſerver. <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Do they believe aright in God the Son, who do not ſubmit to Him, truſt in Him, and obey Him, as their only Lord and Saviour? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Do they rightly believe in God the Holy Ghoſt, who do not follow His direction, and make uſe of his aſſi<g ref="char:EOLhyphen"/>ſtance, as their Guide, Sanctifier and Comforter? <hi rend="inMarg">No</hi>
+               </p>
+            </div>
+            <div n="7-11" type="question">
+               <head>Qu. 7, 8, 9, 10, 11. Of the Ten Com<g ref="char:EOLhyphen"/>mandments.</head>
+               <p>§. Are any in this life freed from their Obligation to o<g ref="char:EOLhyphen"/>bey the Moral Law? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Is not the Moral Law (which is the Rule of our Obe<g ref="char:EOLhyphen"/>dience) ſummarily comprehended in the Ten Com<g ref="char:EOLhyphen"/>mandments. <hi rend="inMarg">Yes</hi>
+               </p>
+               <div type="preface">
+                  <head>Preface. Of the Motives to Obedience.</head>
+                  <p>§. Should not [1.] Gods Soveraignty over us [2.] His relation to us, [3.] and his delivering, (as <hi>Iſrael</hi> of old from <hi>Egyptian</hi> bondage, ſo) us from our ſpiritual thraldom, ingage us to keep all his Commandments. <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>
+                     <hi>Explicatory Queſtions on the ſeveral Commandments, See</hi> page 16, 17, 18, 19.</p>
+               </div>
+               <div type="part">
+                  <pb n="18" facs="tcp:135666:10" rendition="simple:additions"/>
+                  <head>Of our Duty to God contained in the four firſt Commandments.</head>
+                  <p>§. Is it not the ſum of our duty to God to love Him, with all our heart; with all our mind, with all our ſoul, and with all our ſtrength? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can we keep any of theſe Commandments aright, un<g ref="char:EOLhyphen"/>leſs we thus love God above all? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="1" type="commandment">
+                  <head>Com. I. Of the right Object of our worſhip.</head>
+                  <p>§. Doth not the firſt Commandment enjoyn us,
+<list>
+                        <item>1. To take the true God for our only God? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And to worſhip and glorifie Him accordingly? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>†. Do not they then break this Commandment,
+<list>
+                        <item>1. Who forſake and fall away from the true Reli<g ref="char:EOLhyphen"/>gion? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or who (though they continue in it, yet) do not know the true God, or not glorifie Him as God? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. May we believe in, fear, or love, any ſo much as God? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Or give Religious Worſhip to any but God alone? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="2" type="commandment">
+                  <head>Com. II. Of the right means, or matter of our Worſhip.</head>
+                  <p>§. Doth not the ſecond Commandment require, that we ſhould Worſhip God, with ſuch Worſhip, as He hath appointed in his word? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Hath not God there appointed us to worſhip Him, by
+<list>
+                        <item>1. Daily prayer and thanksgiving in the name of Chriſt? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Frequent reading, hearing, and meditating on his Word? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. And by the due uſe of his Sacraments? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>†. Do not they ſin againſt this Commandment?</p>
+                  <list>
+                     <item>1. Who worſhip God by Images, or any other way contrary to his Word? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. Or who corrupt, neglect, or oppoſe any of Gods Ordinances. <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+                  <p>§. Is it unlawful for the Church to appoint decent Cere<g ref="char:EOLhyphen"/>monies? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Will not the Lord who is jealous for his own Worſhip, puniſh thoſe as haters of him, who break this Com<g ref="char:EOLhyphen"/>mandment? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div n="3" type="commandment">
+                  <pb n="19" facs="tcp:135666:10" rendition="simple:additions"/>
+                  <head>Com. III. Of the right manner of our Worſhip.</head>
+                  <p>§. Doth not the third Commandment require us, devout<g ref="char:EOLhyphen"/>ly to perform every part of Divine Worſhip; and re<g ref="char:EOLhyphen"/>verently to uſe every thing which nearly relates to God? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>†. Do not they break this Commandment, who pro<g ref="char:EOLhyphen"/>phanely or irreverently uſe Gods Holy Name, Titles, Attributes, Ordinances, Word, or Works? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Are not Blaſphemy and Curſing; vain and falſe ſwear<g ref="char:EOLhyphen"/>ing, and alſo taking unlawful, or breaking our <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>awful Oaths and Vows; heinous ſins againſt this Command<g ref="char:EOLhyphen"/>ment? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>*. Will the Lord ſuffer them to eſcape his righteous judgment, who wilfully break this Commandment? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="4" type="commandment">
+                  <head>Com. IV. Of the ſolemn time of our Worſhip.</head>
+                  <p>§. Dot not the fourth Commandment enjoyn us, to keep Holy the Sabbath day; by ſpending it,
+<list>
+                        <item>1. In worſhiping God, both in public and private? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or in the works of neceſſity and mercy? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>†. Do not they ſin againſt this Commandment,
+<list>
+                        <item>1. Who ſpend the Sabbath Day in idleneſs? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or about their worldly buſineſs, or recreati<g ref="char:EOLhyphen"/>ons? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. May Maſters command or permit theſe things to thoſe who are under their charge? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Should not [1.] Gods allowing us ſix days for our own imployment [2.] and his challenging a ſpecial propriety in the ſeventh: [3.] His own Example; [4.] and his bleſſing and ſanctifying the Sabbath Day; move us to obey his Commandment? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Is it ſufficient to worſhip God on the Sabbath Day only? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Ought we to ſet apart ſome time for it every day? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And muſt we religiouſly obſerve the Faſts and Feſti<g ref="char:EOLhyphen"/>vals of the Church? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div type="part">
+                  <pb n="20" facs="tcp:135666:11"/>
+                  <head>Of our duty to man, contained in the ſix laſt Commandments.</head>
+                  <p>§. Is it not the ſum of our duty to our neighbour, to love him as our ſelves? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Do we thus love our neighbour, unleſs we do to others what we would have them do to us? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="5" type="commandment">
+                  <head>Com. V. Of the duties to our Relations.</head>
+                  <p>§. Doth not the fifth Commandment enjoyn us to per<g ref="char:EOLhyphen"/>form the duties we owe to our ſeveral Relations; eſpe<g ref="char:EOLhyphen"/>cially to our Superiors? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>†. Is not this Commandment broken,</p>
+                  <p n="1">1. By Children who are undutiful, irreverent, or unkind to their Parents or Guardians?<note place="margin">Yes</note>
+                  </p>
+                  <p n="2">2. By Subjects, who diſhonour, diſobey, or rebel againſt the King, or thoſe in Authority under Him?<note place="margin">Yes</note>
+                  </p>
+                  <p n="3">3. By People, who deſpiſe their Miniſter, reſiſt his Do<g ref="char:EOLhyphen"/>ctrine, or withold his Dues?<note place="margin">Yes</note>
+                  </p>
+                  <p n="4">4. By Servants, who are ſtubborn, ſlothful, or unfaithful to their Maſters?<note place="margin">Yes</note>
+                  </p>
+                  <p n="5">5. By any other Inferiors, who behave themſelves proudly, and ſcornfully towards their Betters, in Age, Gifts, or Eſtate?<note place="margin">Yes</note>
+                  </p>
+                  <p>*. Can they expect long life or proſperity who break this Commandment? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="6" type="commandment">
+                  <head>Com. VI. Of Humanity.</head>
+                  <p>§. Doth not the ſixth Commandment require, all lawful endeavours to preſerve our own, and our neighbours life and health? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>†. Do not they ſin againſt this Commandment, who hurt their own, or their neighbours life or health? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. May we be intemperate, or urge others to be ſo? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. May we uſe angry or provoking words? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>Or bear malice, or deſire of revenge in our hearts? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="7" type="commandment">
+                  <head>Com. VII. Of Chaſtity.</head>
+                  <p>§. Doth not the ſeventh Commandment enjoyn Chaſtity in heart, ſpeech, and behaviour? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <pb n="21" facs="tcp:135666:11"/>
+                  <p>†. Do not they break this Commandment,
+<list>
+                        <item>1. Who admit of any unclean thoughts and deſires? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or uſe any filthy or unchaſt words, or geſtures? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. Eſpecially who commit Fornication, Adultery, or any other Acts of uncleanneſs? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. May we uſe any provocations thereunto? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="8" type="commandment">
+                  <head>Com. VIII. Of Juſtice.</head>
+                  <p>§. Doth not the eighth Commandment require the law<g ref="char:EOLhyphen"/>ful furthering of our own, and our neighbours wealth, and outward eſtate? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>†. Do not they ſin againſt this Commandment,
+<list>
+                        <item>1. Who wrong others in their eſtates; by ſtealing, oppreſſion, deceit, or any other unjuſt taking, or with-holding what is anothers? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or by Idleneſs or Prodigality waſt their own? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. May we ſteal ſmall things, becauſe we are poor? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. May we keep from the owner what is found by us? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="9" type="commandment">
+                  <head>Com. IX. Of Veracity.</head>
+                  <p>§. Doth not the ninth Commandment enjoyn the ſpeak<g ref="char:EOLhyphen"/>ing of truth, and the promoting our own and others good name? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>†. Do not they break this Commandment,
+<list>
+                        <item>1. Who deny, conceal, or oppoſe the Truth? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or injure their own, or neighbours good name? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. Eſpecially who bear falſe witneſs in publick? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. May we in any caſe tell any manner of Lye? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. May we ſlander, or flatter others? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>Or vainly boaſt of our ſelves? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="10" type="commandment">
+                  <head>Com. X. of Contentation.</head>
+                  <p>§. Doth not the tenth Commandment require,
+<list>
+                        <item>1. Our being content with our own Condition? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And rejoicing at our neighbours welfare? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>†. Do not they ſin againſt this Commandment,
+<list>
+                        <item>1. Who are diſcontent with their own eſtate? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. Or who envy or grieve at their neighbours good? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. Or inordinately deſire any thing that is his? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div type="part">
+                  <pb n="23" facs="tcp:135666:12"/>
+                  <head>Catech. Of our need of Gods grace, and of the means to obtain it.</head>
+                  <p>§. Are we able of our ſelves to believe and to do, all theſe things which we have promiſed, and are inga<g ref="char:EOLhyphen"/>ged to? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. Is not prayer a ſpecial means to obtain the aſſiſtance of Gods grace, to enable us hereto? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Ought we therefore daily, and upon all occaſions, to pray unto God for it? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. May we pray leſs than twice every day? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>§. And will our prayers be acceptable to God, unleſs our minds and hearts go along with our words? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="12-13" type="question">
+               <head>Qu. 12, 13. Of the Lords Prayer, conſiſt<g ref="char:EOLhyphen"/>ing of a Preface, ſeven Petitions, and a Concluſion.</head>
+               <p>§. May we pray for any thing but what is agreeable to the will of God? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Is not the Lords Prayer both a moſt perfect Form, and alſo a Pattern of Prayer? <hi rend="inMarg">Yes</hi>
+               </p>
+               <div type="preface">
+                  <head>The Preface.</head>
+                  <p>Doth not the Preface direct us,
+<list>
+                        <item>1. To pray unto God
+<list>
+                              <item>1. As our <hi>Father</hi> in Chriſt, and therefore willing to help us? <hi rend="inMarg">Yes</hi>
+                              </item>
+                              <item>2. As in <hi>Heaven,</hi> and therefore a<g ref="char:EOLhyphen"/>ble to help us? <hi rend="inMarg">Yes</hi>
+                              </item>
+                           </list>
+                        </item>
+                        <item>2. And to Pray with, and for others? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="1" type="petition">
+                  <head>I. Petition.</head>
+                  <p>§. Ought we not chiefly to aim at Gods Glory in every thing? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Are we able of our ſelves to honour God aright? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Do we therefore in the firſt Petition pray,
+<list>
+                        <item>That God would enable us and others, in every thing, to glorifie and honour Him above all, in heart, word, and deed? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="2" type="petition">
+                  <pb n="24" facs="tcp:135666:13"/>
+                  <head>II. Petition.</head>
+                  <p>§. Are not we and all men by nature, under the domini<g ref="char:EOLhyphen"/>on of Sin and Satan? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can we reſcue our ſelves from that ſlavery? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Do we therefore in the ſecond Petition pray,
+<list>
+                        <item>1. That Satans Kingdom may be deſtroyed? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. That Gods Kingdom of Grace may be advanced, by bringing us, and others into it; and by keep<g ref="char:EOLhyphen"/>ing us all in it? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. And that his Kingdom of Glory may be haſtened? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="3" type="petition">
+                  <head>III. Petition.</head>
+                  <p>§. Are not we naturally prone to rebel againſt Gods Com<g ref="char:EOLhyphen"/>mands, and to murmur at his Providence? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And inclined to do the will of the Fleſh and the Devil? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>*. Do we therefore in the third Petition pray,
+<list>
+                        <item>1. That God would make us and others, able and willing to obey his word, and ſubmit to his will in all things? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And both theſe, with the like chearfulneſs, ſince<g ref="char:EOLhyphen"/>rity and conſtancy, as the Angels do in Heaven? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="4" type="petition">
+                  <head>IV. Petition.</head>
+                  <p>§. Can we by our own Induſtry procure the outward comforts of this life, or can they of themſelves ſuſtain us, without Gods bleſſing? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Do we therefore in the fourth Petition pray,
+<list>
+                        <item>1. That upon our lawful endeavours, we may of Gods free gift, receive a competent portion of the good things of this life? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. And may enjoy Gods bleſſing with them? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="5" type="petition">
+                  <head>V. Petition.</head>
+                  <p>§. Are we not by our ſins become debtors to the Juſtice of God, and liable to Condemnation? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Can we or any other Creature make any ſatisfaction for that Debt? <hi rend="inMarg">No</hi>
+                  </p>
+                  <pb n="25" facs="tcp:135666:13"/>
+                  <p>*. Do we therefore in the fifth Petition pray,
+<list>
+                        <item>That through the ſatisfaction of Chriſt, we and o<g ref="char:EOLhyphen"/>thers may be acquitted, both from the guilt and puniſhment of Sin? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>§. Can we expect forgiveneſs from God, unleſs we from our heart forgive others their offences againſt us? <hi rend="inMarg">No</hi>
+                  </p>
+               </div>
+               <div n="6" type="petition">
+                  <head>VI. Petition.</head>
+                  <p>§. Are not Satan, the World and the Fleſh, always rea<g ref="char:EOLhyphen"/>dy by their Temptations, to draw us to Sin? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. Are we of our ſelves willing to reſiſt, or able to over<g ref="char:EOLhyphen"/>come them? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Do we therefore in the ſixth Petition pray,</p>
+                  <p>§. That God would ſo ſubdue the Fleſh, over-rule the World, and reſtrain Satan, that we and others,
+<list>
+                        <item>1. May not be tempted to Sin? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>2. However may not fall into it? <hi rend="inMarg">Yes</hi>
+                        </item>
+                        <item>3. Eſpecially not live impenitently in it? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div n="7" type="petition">
+                  <head>VII. Petition.</head>
+                  <p>§. Can we hope to eſcape the evil of puniſhment, if we ſo yield to temptation as to commit Sin, or continue in it? <hi rend="inMarg">No</hi>
+                  </p>
+                  <p>*. Do we therefore in the ſeventh Petition pray,
+<list>
+                        <item>That we and others may not provoke God by our ſinning and impenitence, to puniſh us with Evils, and miſeries, temporal, ſpiritual, or eternal? <hi rend="inMarg">Yes</hi>
+                        </item>
+                     </list>
+                  </p>
+               </div>
+               <div type="conclusion">
+                  <head>The Concluſion.</head>
+                  <p>§. Ought we in our Prayers to praiſe God? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>Aſcribing to Him, eternal Soveraignty over all, Power to do all, and Glory from all? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <p>§. And ſhould we take our encouragement in Prayer, from theſe Attributes of God? <hi rend="inMarg">Yes</hi>
+                  </p>
+               </div>
+               <div type="part">
+                  <head>Amen.</head>
+                  <p>§. Do you by the word, Amen, declare your belief that God can, your hope that he will, and deſire that he may grant your requeſts? <hi rend="inMarg">Yes</hi>
+                  </p>
+                  <pb n="27" facs="tcp:135666:14"/>
+                  <p>§. Of the Sacraments.</p>
+               </div>
+            </div>
+            <div n="14" type="question">
+               <head>Qu. 14. Of their Author, number and neceſſity.</head>
+               <p>§. Hath God (beſides prayer) appointed his word, and Sacraments, to be the ordinary outwards means of grace? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Hath Chriſt ordained any more Sacraments in his Church beſides Baptiſm, and the Lords Supper? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Doth not the wilful neglect of theſe, highly offend God, and indanger our Salvation? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="15-16" type="question">
+               <head>Qu. 15, 16. Of their nature, uſe, and parts.</head>
+               <p>§. Hath not Chriſt ordained the outward parts of a Sa<g ref="char:EOLhyphen"/>crament to be,
+<list>
+                     <item>1. Signs of inward and ſpiritual grace? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. Means to convey grace to the ſoul? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. Pledges to aſſure us that the graces ſignified ſhall be conveyed to believers? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>§. Is there not then in every Sacrament,
+<list>
+                     <item>1. An outward part to be ſeen by the eye? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. And an inward part to be diſcerned, and recei<g ref="char:EOLhyphen"/>ved by faith? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div n="17" type="question">
+               <head>Qu. 17. Of the outward part of Baptiſm.</head>
+               <p>§. Hath Chriſt inſtituted any outward matter beſides water, to be uſed in Baptiſm? <hi rend="inMarg">No</hi>
+               </p>
+               <p>
+                  <hi>OR</hi> any outward form but dipping, or ſprinkling <hi>In the Name,</hi> &amp;c. <hi rend="inMarg">No</hi>
+               </p>
+            </div>
+            <div n="18" type="question">
+               <head>Qu. 18. Of the inward grace of Baptiſm.</head>
+               <p>§. Are we not by nature guilty of Original Sin, and lia<g ref="char:EOLhyphen"/>ble to Gods wrath? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is not the pardoning of this Original guilt, the ſub<g ref="char:EOLhyphen"/>duing our natural Corruption, and the reſtoring us to Gods favour, the inward grace of Baptiſm? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="19-20" type="question">
+               <pb n="29" facs="tcp:135666:15"/>
+               <head>Qu. 19, 20. Of the Subject qualified for Baptiſm.</head>
+               <p>§. May perſons of riper years be admitted to Baptiſm, till they profeſs their Repentance, Faith in Chriſt, and obedience to him? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Ought not Infants to be Baptiſed who are preſented by ſuch as profeſs and engage theſe things? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Will the profeſſion and ingagement of your Sureties ſuffice for you any longer, than till you come of age to take it upon your ſelf? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Do not thoſe who then live in impenitence, and unbe<g ref="char:EOLhyphen"/>lief, forfeit the benefits of their Baptiſm? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="21" type="question">
+               <head>Qu. 21. Of the end and uſe of the Lords Supper.</head>
+               <p>§. Is no<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Lords Supper often to be adminiſtred? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> the<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ein offered up a ſacrifice to his Fa<g ref="char:EOLhyphen"/>ther? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Is <gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ere not in it a lively repreſentation of that ſa<g ref="char:EOLhyphen"/>crifice of himſelf offered upon the Croſs once for all? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. <hi>AND</hi> was it ordained to revive in us the memory of Chriſt death, and of the benefits purchaſed for us thereby? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="22" type="question">
+               <head>Qu. 22. Of the outward part of the Lords Supper.</head>
+               <p>§. Are not both Bread and Wine the outward matter of the Lords Supper? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is the ſubſtance of the Bread and Wine, by conſe<g ref="char:EOLhyphen"/>cration changed into the ſubſtance of the body and blood of Chriſt? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Will it ſuffice to look only on the Bread and Wine in the Lords Supper, unleſs we alſo take, eat, and drink of them? <hi rend="inMarg">No</hi>
+               </p>
+            </div>
+            <div n="23" type="question">
+               <pb n="31" facs="tcp:135666:16"/>
+               <head>Qu. 23. Of the Inward part of the Lords Supper.</head>
+               <p>§. Doth not the bread broken in the Lords Supper, ſig<g ref="char:EOLhyphen"/>nifie the body of Chriſt broken upon the Croſs for us? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. And doth not the wine poured out repreſent his blood ſhed for us? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Do Believers feed on the body and blood of Chriſt in the Lords Supper, as truly and really as they do on the bread and wine? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is this done after a Corporal and Carnal manner? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Or is it done after a Spiritual manner, while by faith they apply to themſelves the benefits of Chriſts death? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="24" type="question">
+               <head>Qu. 24. Of Benefits of the Lords Supper.</head>
+               <p>§. Doth not this ſpirirual feeding on the body and blood of Chriſt in the Lords Supper,
+<list>
+                     <item>1. Nouriſh and ſtrengthen our Souls? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. And alſo comfort and refreſh them? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>§. Are our ſouls as truly and really hereby ſtrengthened and refreſhed, as our bodies are by bread and wine? <hi rend="inMarg">Yes</hi>
+               </p>
+            </div>
+            <div n="25" type="question">
+               <head>Qu. 25. Of Preparation to the Lords Supper.</head>
+               <p>§. Can any expect to receive theſe benefits in the Lords Supper, but thoſe who come to it duly prepared, and receive it worthily? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Can we prepare our ſelves aright unleſs we ſtrictly examin our ſelves before we come? <hi rend="inMarg">No</hi>
+               </p>
+               <p>§. Muſt we eſpecially examin our ſelves of the truth of our [1.] Repentance, and new Obedience [2.] Faith, [3.] Thankfulneſs, [4.] and Charity? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p n="1">[1.] May notorious and cuſtomary Sinners preſume to come without Repentance, to this holy Sacrament?<note place="margin">No</note>
+               </p>
+               <p>§. Ought every one who would come duly prepared,
+<list>
+                     <item>1. To examin their hearts and lives by Gods Law? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. To bewail and abhor, confeſs and forſake all their Sins? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. And ſtedfaſtly to purpoſe, and conſtantly to en<g ref="char:EOLhyphen"/>deavour after a holy life? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+               <p n="2">
+                  <pb n="32" facs="tcp:135666:17"/>[2, and 3.] Can thoſe who are ignorant, unbelieving, or unthankful, partake of the comforts of this ſpiritual food?<note place="margin">No</note>
+               </p>
+               <p>§. Muſt every one that would ſpiritually feed on Chriſt in this Sacrament, underſtand and believe,
+<list>
+                     <item>1. Their own Miſery by ſin, Original and Actual? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. The ſufficiency of Chriſts death, to ſatisfie Di<g ref="char:EOLhyphen"/>vine Juſtice for all their ſins? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. And Gods willingneſs for Chriſts ſake, to ſeal a pardon to all true Believers in this Sacrament? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>§. And ought they alſo thankfully to commemorate the wonderful love of Chriſt in dying to purchaſe ſuch great benefits? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p n="4">[4.] Shall injurious, malicious, and uncharitable perſons receive pardon or grace from God in this Sacrament?<note place="margin">No</note>
+               </p>
+               <p>§. Muſt every one who would be a welcom gueſt at this Feaſt of Charity,
+<list>
+                     <item>1. Be ſorry for the injuries they have done to others and ready to make them ſatisfaction? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. Forgive heartily, and be willing to be reconciled to thoſe who have offended them? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. And alſo give according to their ability to thoſe who are in neceſſity? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div type="conclusion">
+               <head>The Concluſion.</head>
+               <p>§. Is it a very heinous ſin in any, either to receive unwor<g ref="char:EOLhyphen"/>thily; or not to receive at all, upon pretence of unfit<g ref="char:EOLhyphen"/>neſs, while they never indeavour to prepare them<g ref="char:EOLhyphen"/>ſelves? <hi rend="inMarg">Yes</hi>
+               </p>
+               <p>§. Is it therefore the duty of every man that is of com<g ref="char:EOLhyphen"/>petent age and diſcretion,
+<list>
+                     <item>1. Seriouſly to prepare themſelves for this Ordinance, by ſelf-examination, ſincere Repentance, and fer<g ref="char:EOLhyphen"/>vent prayer? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>2. Diligently upon every fit Opportunity, to partake of it, with due Reverence, heedful Attention, a lively Faith, and devout Affections ſuitable thereto? <hi rend="inMarg">Yes</hi>
+                     </item>
+                     <item>3. And carefully ever after, to fulfil their Vows then made and renewed? <hi rend="inMarg">Yes</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="price_tag">
+            <p>Price ſtitcht 2 <hi>d.</hi>
+            </p>
+            <pb facs="tcp:135666:17" rendition="simple:additions"/>
+         </div>
+      </back>
+   </text>
+</TEI>
